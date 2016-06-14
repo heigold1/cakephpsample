@@ -46,9 +46,6 @@ class UsersController extends AppController {
 
 public function add(){
  
-/*echo "inside add<br>";
-die(); */
-
     //check if it is a post request
     //this way, we won't have to do if(!empty($this->request->data))
     if ($this->request->is('post')){
